@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <div class="sort-container">
+            <div class="column">
+                <label for="nameFilter">Search by name</label>
+                <input type="text" id="nameFilter" name="nameFilter">
+            </div>
+            <div class="column">
+                <label for="ageFilter">Age (from 19 to 74):</label>
+                <input type="range" id="ageFilter" name="ageFilter" min="19" max="74">
+            </div>
+            <div class="column">
+                <label for="genderFilterMale">Male</label>
+                <input type="radio" id="genderFilterMale" name="genderFilter" value="male" />
+                <label for="genderFilterFemale">Female</label>
+                <input type="radio" id="genderFilterFemale" name="genderFilter" value="female" />
+                <label for="all">Male&Female</label>
+                <input type="radio" id="all" name="genderFilter" value="all"  checked/>
+            </div>
+        </div>
+       
+
+        <div class="users-container">
+            <div class="user">
+                <div class="person-photo">
+                    <img src="img/julia-roberts.jpg" class="img-fluid" alt="photo">
+                </div>
+                <div class="person-name">Julia Roberts</div>
+                <div class="person-age">55</div>
+                <div class="person-gender">Female</div>
+            </div>
+            <div class="user">
+                <div class="person-photo">
+                    <img src="img/keanu-reeves.jpg" class="img-fluid" alt="photo">
+                </div>
+                <div class="person-name">Keanu Reeves</div>
+                <div class="person-age">58</div>
+                <div class="person-gender">Male</div>
+            </div>
+            <div class="user">
+                <div class="person-photo">
+                    <img src="img/robert-pattinson.jpg" class="img-fluid" alt="photo">
+                </div>
+                <div class="person-name">Robert Pattinson</div>
+                <div class="person-age">37</div>
+                <div class="person-gender">Male</div>
+            </div>
+            <div class="user">
+                <div class="person-photo">
+                    <img src="img/tom-hanks.jpg" class="img-fluid" alt="photo">
+                </div>
+                <div class="person-name">Tom Hanks</div>
+                <div class="person-age">67</div>
+                <div class="person-gender">Male</div>
+            </div>
+            <div class="user">
+                <div class="person-photo">
+                    <img src="img/Angelina-Jolie.jpg" class="img-fluid" alt="photo">
+                </div>
+                <div class="person-name">Angelina Jolie</div>
+                <div class="person-age">48</div>
+                <div class="person-gender">Female</div>
+            </div>
+            <div class="user">
+                <div class="person-photo">
+                    <img src="img/Jennifer-Lawrence.jpg" class="img-fluid" alt="photo">
+                </div>
+                <div class="person-name">Jennifer Lawrence</div>
+                <div class="person-age">32</div>
+                <div class="person-gender">Female</div>
+            </div>
+            <div class="user">
+                <div class="person-photo">
+                    <img src="img/Anne-Hathaway.jpg" class="img-fluid" alt="photo">
+                </div>
+                <div class="person-name">Anne Hathaway</div>
+                <div class="person-age">40</div>
+                <div class="person-gender">Female</div>
+            </div>
+            <div class="user">
+                <div class="person-photo">
+                    <img src="img/Bradley-Cooper.jpg" class="img-fluid" alt="photo">
+                </div>
+                <div class="person-name">Bradley Cooper</div>
+                <div class="person-age">48</div>
+                <div class="person-gender">Male</div>
+            </div>
+            <div class="user">
+                <div class="person-photo">
+                    <img src="img/Meryl-Streep.jpg" class="img-fluid" alt="photo">
+                </div>
+                <div class="person-name">Meryl Streep</div>
+                <div class="person-age">74</div>
+                <div class="person-gender">Female</div>
+            </div>
+            <div class="user">
+                <div class="person-photo">
+                    <img src="img/Tom-Holland.jpg" class="img-fluid" alt="photo">
+                </div>
+                <div class="person-name">Tom Holland</div>
+                <div class="person-age">27</div>
+                <div class="person-gender">Male</div>
+            </div>
+            <div class="user">
+                <div class="person-photo">
+                    <img src="img/Jenna-Ortega.jpg" class="img-fluid" alt="photo">
+                </div>
+                <div class="person-name">Jenna Ortega</div>
+                <div class="person-age">20</div>
+                <div class="person-gender">Female</div>
+            </div>
+            <div class="user">
+                <div class="person-photo">
+                    <img src="img/Zendaya.jpg" class="img-fluid" alt="photo">
+                </div>
+                <div class="person-name">Zendaya</div>
+                <div class="person-age">26</div>
+                <div class="person-gender">Female</div>
+            </div>
+            <div class="user">
+                <div class="person-photo">
+                    <img src="img/Storm-Reid.jpg" class="img-fluid" alt="photo">
+                </div>
+                <div class="person-name">Storm Reid</div>
+                <div class="person-age">19</div>
+                <div class="person-gender">Female</div>
+            </div>
+            <div class="user">
+                <div class="person-photo">
+                    <img src="img/Kelvin-Harrison.jpg" class="img-fluid" alt="photo">
+                </div>
+                <div class="person-name">Kelvin Harrison Jr.</div>
+                <div class="person-age">28</div>
+                <div class="person-gender">Male</div>
+            </div>
+            <div class="user">
+                <div class="person-photo">
+                    <img src="img/Tom-Cruise.jpg" class="img-fluid" alt="photo">
+                </div>
+                <div class="person-name">Tom Cruise</div>
+                <div class="person-age">61</div>
+                <div class="person-gender">Male</div>
+            </div>
+            <div class="user">
+                <div class="person-photo">
+                    <img src="img/Zac-Efron.jpg" class="img-fluid" alt="photo">
+                </div>
+                <div class="person-name">Zac Efron</div>
+                <div class="person-age">35</div>
+                <div class="person-gender">Male</div>
+            </div>
+            
+        </div>
+    </main>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
